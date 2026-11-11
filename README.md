@@ -65,21 +65,6 @@ main:
 Pet registarskih promjenljivih (`r1`–`r5`) se smjestilo u samo dva stvarna registra.
 Složeniji primjer sa petljom je u `examples/multiply.mavn`.
 
-## Pokretanje
 
-1. Otvori `src/LexicalAnalysis.sln` u **Visual Studiju**.
-2. Pokreni projekat (F5).
-3. Program čita `examples/simple.mavn` i upisuje rezultat u `examples/simple.s`.
-   Za drugi ulaz promijeni putanje `fileName` i `outputFileName` u `src/main.cpp`.
-
-Dobijeni `.s` fajl može se pokrenuti u MIPS simulatoru (npr. **QtSPIM** ili **MARS**).
-
-## Struktura
-
-```
-src/        izvorni kod prevodioca (C++)
-examples/   primjeri ulaznih .mavn i izlaznih .s fajlova
-doc/        dokumentacija projekta
-```
 
 Detaljna dokumentacija: [`doc/OPPISA_dokumentacija.pdf`](doc/OPPISA_dokumentacija.pdf)
